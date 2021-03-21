@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: darkgreen;
+    display: flex;
+}
+
+.gamePanel{
+    z-index: 0;
+    background: darkblue;
+    width:250px;
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+height:100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 3rem;
+}
+/* .gamePanelInputs{
+visibility: visible
+} */
+
+.diceImg{
+    width: 80px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.players{
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.playerScore{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 50vw;
+align-items: center;
+
+}
+
+.currentScore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:lightcyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+.currentScore h3{
+    margin-bottom: 1rem;
+}
+.globalScore{
+    background: #8b1919;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    color: lightcyan;
+}
+.fas{
+    color: #8b1919;
+/* visibility:hidden; */
+}
+
+.music button{
+    margin:  0 10px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}

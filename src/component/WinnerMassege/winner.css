@@ -1,0 +1,21 @@
+.winner{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: #004d00;
+    z-index:1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.winner h1{
+    color: #8b1919;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.winner button{
+    font-size: 40px;
+    background: #8b1919;
+}
